@@ -5,9 +5,9 @@ module.exports = [
     link: '/linux/',  //目录页，vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
       {text: '工具', items: [
-        {text: '前端文章', link: '/pages/8143cc480faf9a11/'}, // 注意link结尾有斜杠和没有斜杠的区别
-        {text: '后端文章', link: '/pages/802a1ca6f7b71c59/'},
-        {text: 'CI/CD文章', link: '/pages/802a1ca6f7b71c59/'},
+        {text: '前端文章', link: '/pages/nginx/'}, // 注意link结尾有斜杠和没有斜杠的区别
+        {text: '后端文章', link: '/pages/tomcat/'},
+        {text: 'CI/CD文章', link: '/pages/jenkins/'},
       ]},
       {text: '学习笔记', items:[
         {text: '《JavaScript教程》笔记', link: '/note/javascript/'},
