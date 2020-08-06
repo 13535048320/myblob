@@ -5,16 +5,15 @@ module.exports = [
     link: '/linux/',  //目录页，vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
       {text: '工具', items: [
-        {text: '前端文章', link: '/pages/nginx/'}, // 注意link结尾有斜杠和没有斜杠的区别
-        {text: '后端文章', link: '/pages/tomcat/'},
-        {text: 'CI/CD文章', link: '/pages/jenkins/'},
+        {text: '前端', link: '/pages/nginx/'}, // 注意link结尾有斜杠和没有斜杠的区别
+        {text: '后端', link: '/pages/tomcat/'},
+        {text: 'CI/CD', link: '/pages/jenkins/'},
       ]},
       {text: '学习笔记', items:[
-        {text: '《JavaScript教程》笔记', link: '/note/javascript/'},
-        {text: '《ES6 教程》笔记', link: '/note/es6/'},
-        {text: '《Vue》笔记', link: '/note/vue/'},
-        {text: '《TypeScript 从零实现 axios》', link: '/note/typescript-axios/'},
-        {text: '小程序笔记', link: '/note/wx-miniprogram/'},
+        {text: 'Apache Httpd 使用笔记', link: '/pages/apache/'},
+        {text: 'gitlab-ci 使用笔记', link: '/pages/gitlab-ci/'},
+        {text: 'EFK 使用笔记', link: '/pages/efk/'},
+        {text: 'Zabbix 监控笔记', link: '/pages/zabbix/'},
       ]}
     ]
   },
@@ -22,8 +21,9 @@ module.exports = [
     text: '容器',
     link: '/container/',
     items: [
-      {text: 'HTML', link: '/pages/8309a5b876fc95e3/'},
-      {text: 'CSS', link: '/pages/0a83b083bdf257cb/'},
+      {text: 'docker', link: '/pages/25e63c/'},
+      {text: 'swarm', link: '/pages/0a83b083bdf257cb/'},
+      {text: 'kubernetes', link: '/pages/d82f39/'},
     ]
   },
   {

@@ -11,15 +11,15 @@ features: # 可选的
   - title: Linux
     details: Linux 基础，Nginx、Tomcat等工具的使用
     link: /linux/ # 可选
-    imgUrl: https://www.kernel.org/theme/images/logos/tux.png # 可选
+    imgUrl: /mdimg/Linux.png # 可选
   - title: 容器
     details: Docker、Docker Swarm、Kubernetes等容器运维技术
     link: /container/
-    imgUrl: https://www.docker.com/sites/default/files/d8/Docker-R-Logo-08-2018-Monochomatic-RGB_Moby-x1.png
+    imgUrl: /mdimg/Container.png
   - title: 大数据
     details: Hadoop、HBase、Hive等大数据框架
     link: /bigdata/
-    imgUrl: https://g.alicdn.com/computing-frontend/ack/0.2.6/assets/images/serverless.svg
+    imgUrl: /mdimg/Bigdata.svg
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
