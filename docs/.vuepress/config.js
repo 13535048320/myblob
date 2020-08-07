@@ -89,7 +89,7 @@ module.exports = {
     },
     footer:{ // 页脚信息
       createYear: 2020, // 博客创建年份
-      copyrightInfo: 'zhangzc |', // 博客版权信息，支持a标签
+      copyrightInfo: '技术记录. ', // 博客版权信息，支持a标签
     }
   },
   plugins: [ // 插件
