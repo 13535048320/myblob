@@ -171,8 +171,8 @@ module.exports = {
       {
         choosen: 'gitalk',
         options: {
-          clientID: 'a6e1355287947096b88b',
-          clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
+          clientID: 'Iv1.4294a5f7efd87649',
+          clientSecret: '94762d22d86f3c4d3482fc4193c767cef1d4aa74',
           repo: 'myblob', // GitHub 仓库
           owner: '13535048320', // GitHub仓库所有者
           admin: ['13535048320'], // 对仓库有写权限的人
